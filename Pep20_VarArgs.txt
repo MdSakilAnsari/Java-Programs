@@ -1,0 +1,4 @@
+//var args is introduced in java-5 it is similar to the arrays.or(...)
+//It is only used with method argument.
+//It is also called variable argument.
+//if a method contain var_Args then it must be the last parameter if you have multiple argument in the method.

@@ -1,0 +1,18 @@
+If no any main method in our program then program will be compiled but run time error will generate.
+Java does not accept more than one main method.(It will produces compiled time error).
+{}Indicates scope of function or class.
+We can use final keyword with main method.
+static method is required to run java program.
+Three thype of variable is available in java,->class variable(static),instance variable(int num),local variable.
+int num=0//instance variable
+static int reg_no;//class variable
+fun()
+{
+int p=1;//local variable;
+}
+Note: static variable cant use like local variable.
+To make documentation of java file class must be public.
+comment in java:- Single line (//) Multiline(/*__*/) and document type by(javadoc).
+Static keyword is used to create single memory and will share to all object.
+Q. how to check no of object is created in java class.
+By using Static variable can check no of object has been created by using same variable by all object.

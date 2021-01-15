@@ -1,0 +1,61 @@
+//Generics	:
+Collection	:Collection is class in java which can hold any type of data.
+			:List. Set and Queue is the three child interface which extedns the Collection interface which is under java util package.
+			:List is an interface no need to write New Keyword for memory allocation.
+			:Arraylist, linked List, and Vector are class which can implements the List.
+			:Arraylist allow dynamic memory allocation.
+			:Arraylist is used when you have find any item in this term Arraylist is useful
+			:Linked List is useful in case you want to add or delete some element in the list.
+			:Inside Java Vector is known as Legacy collection which is synchronized and it is threadshafe.
+			:All the data in the collection is type of object.
+				Collection-->are three types is given Below
+					|
+		-------------------------
+		/			|			\
+	  List 		   Set			Queue
+		
+	List	:It can hold duplicate element.
+	
+					   List-->Can be implements using one of them.
+						|
+			-------------------------
+			 /			|			\
+		Arraylist   Linked List   Vector
+			
+	Set		:It can hold only unique element.
+	
+						   Set
+							|
+			----------------------------------
+			 /				|				\
+		Hash Set	Linked Hash Set      Tree Set
+		
+		Hash Set-->	:Collection of Hash set not be ordered and not be Shoted because it internally store data on the basis of hashcode.
+					:It will creade bucket and store them in the bucket.
+					:It will always read element from the first bucket.
+					:It is used for faster searching.
+		Linked HashSet--->	:In this collection data will be shorted and ordered.
+		
+		Tree Set-->	:It first implements shorted set and shorted set implements Set interface.
+					:By default element are shorted in Tree set in natural order (Ascending Order).
+					
+		
+			
+	Queue	:It is similar like list but it follow First In First Out approach for data acceess.
+	
+							   Queue
+								|
+					-------------------------
+					/						\	
+				Priority queue			Linked List
+				
+				
+				
+				
+				
+				
+				
+				
+	Generics--->	:Type of generic must be class type not premittive type.
+					:Both side must be same.
+					:retainAll() method is use to find intersection of two list and its return true or false.
